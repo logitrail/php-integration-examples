@@ -1,5 +1,6 @@
 <?php
 
+require_once '../vendor/autoload.php';
 include_once './product_database.inc.php';
 
 session_start();
@@ -16,10 +17,10 @@ if (!$noHtml) {
     </head>
     <body>
         <div class="container">
-        
+
             <div><a href="index.php">Main Page</a></div>
-            
-        
+
+
     <?php
 
     register_shutdown_function(function() {

@@ -1,0 +1,16 @@
+{
+    "name": "logitrail/php-integration-example",
+    "type": "project",
+    "description": "Logitrail PHP Integration Example Project",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5",
+        "logitrail/logitrail": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Ville Mattila",
+            "email": "ville@logitrail.com"
+        }
+    ]
+}
