@@ -23,6 +23,7 @@ $requestValues = array(
     "error_url" => "https://help.logitrail.com/php-integration-examples/return.php?return=error",
     "cancel_url" => "https://help.logitrail.com/php-integration-examples/return.php?return=cancel",
     "weight" => $totalWeight,
+    "layout" => "default",
 );
 
 ksort($requestValues);
